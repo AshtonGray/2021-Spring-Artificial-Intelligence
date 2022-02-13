@@ -1,0 +1,23 @@
+Connect-383: A play off of connect 4, however, this game can use any size board, has obstacle pieces that does not belong to either player, and the game is played until the
+board is completely filled. The winner is decided on who has the most points.
+
+Points are awarded as follows: for each run of length three or
+greater, the player will receive points equal to the square of the
+length of that run. For example, 3-in-a-row is worth 9 points,
+4-in-a-row 16, 5-in-a-row 25, etc.
+
+Code:
+To play a game, you run connect383.py from a command line (or within an IDE) and supply it
+with arguments that determine the parameters of the game and which type of agents are
+playing. The required arguments are, in order:
+player1 – one of {‘r’, ‘h’, ‘c’} specifying the agent type (see code for details)
+player2 – one of {‘r’, ‘h’, ‘c’}
+rows – the number of rows in the board
+columns – the number of columns in the board
+
+Example: > python connect383.py r h 4 5
+
+A player can play another player or they can play the computer
+The agent used is Minimax
+An evaluation of a good play was created into a heuristic
+Aplha-beta pruning option is used in combination with minimax
