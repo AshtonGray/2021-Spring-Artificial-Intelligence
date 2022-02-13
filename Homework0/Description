@@ -1,0 +1,8 @@
+A simple script that can:
+- Read: Mustard_data.csv (16 years of refueling records for a single automobile)
+- Calculate the total amount of money spent
+- Calculate the number of refueling locations that were visited exactly once
+- Return a list of the 10 most common refueling locations, along with the number of times they aooear in the data
+- Return a dctionary containin the total number of visits for eahc state
+- Return the total number of unique dates in the calendar that refueling took place
+- Return a dictionary containing the average price per gallon for each month of the year
