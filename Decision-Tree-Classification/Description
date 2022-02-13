@@ -1,0 +1,2 @@
+This is an implementation of a decision tree classification algorithm. The code learns a decision tree from a data set containing facts
+about the 350 cities and towns in Massachusetts, with a class label indicating the local results of the 2020 U.S. presidential Election
