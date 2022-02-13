@@ -1,0 +1,12 @@
+A weighted 8-puzzle solver using different search stratigies with different heuristics.
+
+
+The 8-puzzle:
+The 8-puzzle consists of eight tiles on a 3x3 grid, with one open ("blank") square. The possible configurations of tiles
+comprise a state space, where the goal state has the open square in the upper left, with the
+other tiles arranged in numeric order from left to right.
+
+Valid moves are Up, Down, Left, and Right
+
+Code:
+Four different search strategies are used: Breadth-first, uniform-cost, greedy best-first, and A* to solve the puzzle
